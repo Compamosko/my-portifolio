@@ -34,13 +34,13 @@ background-color: black;
     border-radius: 100px;
 }
 #welcome-section{
-background-color: white;
+background-color: #F5F5DC;
 }
 #contacts{
-
+    background-color:  #F5F5DC;
 }
 #projects{
-background-color: white;
+background-color: #F5F5DC;
 }
 .dp{
 width:200px;
@@ -68,3 +68,24 @@ text-align: center;
 vertical-align: middle;
 line-height: 1.5;
 }
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    background-color:  #F5F5DC;
+  }
+  .gallery img {
+    width: 100%;
+    max-width: 350px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    border:3px;
+    
+  }
