@@ -2,13 +2,13 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #333;
+    background-color: black;
     color: white;
     padding: 10px 0;
     text-align: right;
     z-index: 1000;
 }
-@media (max-width: 600px) {
+@media (max-width: 300px) {
 #navbar a {
 display: block;
 padding: 10px;
@@ -34,7 +34,7 @@ background-color: black;
     border-radius: 100px;
 }
 #welcome-section{
-background-color: #F5F5DC;
+background-image src="https://w0.peakpx.com/wallpaper/135/250/HD-wallpaper-turned-on-computer-set-with-black-and-gray-leather-gaming-chair.jpg" ;
 }
 #contacts{
     background-color:  #F5F5DC;
@@ -44,7 +44,7 @@ background-color: #F5F5DC;
 }
 .dp{
 width:200px;
-length:200px;
+height:200px;
 border: 2px solid #ccc;
 border-radius: 50px;
 }
@@ -89,3 +89,19 @@ line-height: 1.5;
     border:3px;
     
   }
+  .contact-info {
+    text-align: center; /* Center the contact info */
+    margin-top: 20px;
+}
+.blank {
+    display: inline;
+    margin: 10px 0;
+    color: black; /* Default icon color */
+    font-size: 40px; /* Icon size */
+    text-decoration: none;
+}
+#pic{
+    display: block;
+    align-items: center;
+    text-align: center;
+}
