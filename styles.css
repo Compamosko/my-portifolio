@@ -76,9 +76,9 @@ line-height: 1.5;
 }
 .gallery {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+   
     align-items: center;
     gap: 16px;
     max-width: 1400px;
@@ -95,6 +95,10 @@ line-height: 1.5;
     border:3px;
     
   }
+.gallery::after {
+  content: "";
+  width: 350px;
+}
   .contact-info {
     text-align: center; /* Center the contact info */
     margin-top: 20px;
