@@ -76,7 +76,7 @@ line-height: 1.5;
 }
 .gallery {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
    
     align-items: center;
