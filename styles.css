@@ -30,7 +30,7 @@ a:hover {
 
 body {
 font-family: 'Poppins', sans-serif;
-font-size: 1.8rem;
+font-size: 1rem;
 font-weight: 400;
 line-height: 1.4;
 color: var(--main-white);
@@ -45,7 +45,7 @@ background-color: white;
     text-decoration: none;
     border-radius: 100px;
     text-align: center;
-    border: 5px solid #000;
+
     
     
     
@@ -77,7 +77,7 @@ text-align: center;
 
 }
 span {
-font-size: 36px;
+font-size: 1rem;
 font-family: Arial, sans-serif;
 font-weight: bold;
 font-style: italic;
@@ -99,10 +99,10 @@ line-height: 1.5;
     align-items: left;
 
    justify-content: center;
-    
+   
 
     gap: 20px;
-    max-width: auto;
+    max-width: 100%;
     margin: auto;
     background-color:  white;
 
@@ -130,8 +130,8 @@ line-height: 1.5;
 .blank {
     display: inline;
     margin: 10px 0;
-    color: black; /* Default icon color */
-    font-size: 40px; /* Icon size */
+    color: #2452b6; /* Default icon color */
+    font-size: 1.5em; /* Icon size */
     text-decoration: none;
     
 }
@@ -148,9 +148,9 @@ line-height: 1.5;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    background-image: url(https://img.freepik.com/premium-photo/web-development-coding-programming-site-application-laptop_272306-16.jpg?w=1060);
+    /*background-image: url(https://img.freepik.com/premium-photo/web-development-coding-programming-site-application-laptop_272306-16.jpg?w=1060);*/
     border-radius: 5%;
-    color: white;
+    color: black;
     max-width: auto;
     background-size: cover;
     justify-content: center;
