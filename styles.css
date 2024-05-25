@@ -156,7 +156,7 @@ line-height: 1.5;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    background-color: rgb(82, 82, 203);
+   
     border-radius: 5%;
     color: white;
     max-width: auto;
@@ -169,7 +169,7 @@ line-height: 1.5;
     white-space: wrap; /*  text wrapping */
     overflow: hidden; /* Hide overflow text */
     text-overflow: ellipsis; /* Add ellipsis for overflowing text */
-    
+    background-color: rgb(82, 82, 203);
 }
 #color{
     color:rgb(171, 54, 54);
