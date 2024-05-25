@@ -101,7 +101,7 @@ line-height: 1.5;
    justify-content: center;
     
 
-    gap: 16px;
+    gap: 20px;
     max-width: auto;
     margin: auto;
     background-color:  white;
@@ -109,24 +109,16 @@ line-height: 1.5;
   }
   .gallery img {
     width: 100%;
-    max-width: 350px;
-    height: 500px;
+    height: 50vh;
     object-fit: cover;
-    border-radius: 10px;
-    border:3px;
+    
 
     
   }
-
-  .gallery::after {
+  gallery::after {
     content: "";
-    width: 350px;
+    width: 100%;
   }
-
-.gallery::after {
-  content: "";
-  width: 350px;
-}
 
   .contact-info {
     text-align: center;
