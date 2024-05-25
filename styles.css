@@ -159,12 +159,13 @@ line-height: 1.5;
     background-color: rgb(82, 82, 203);
     border-radius: 5%;
     color: white;
+    max-width: auto;
 }
 #flex-item {
-    flex: 1 0 200px; /* Fixed width of 200px for each flex item */
+    flex: 1 0 300px; /* Fixed width of 200px for each flex item */
     padding: 10px;
     
-    text-align: center; /* Center text within each item */
+    text-align: left; /* Center text within each item */
     white-space: wrap; /*  text wrapping */
     overflow: hidden; /* Hide overflow text */
     text-overflow: ellipsis; /* Add ellipsis for overflowing text */
@@ -172,4 +173,5 @@ line-height: 1.5;
 }
 #color{
     color:rgb(171, 54, 54);
+    text-align: left; 
 }
