@@ -22,22 +22,22 @@
   <p>I excel at creating dynamic and user-friendly websites using the latest technologies. My expertise in  various frameworks allows me to develop responsive and visually appealing interfaces.</p><p> I have a keen eye for detail and a strong understanding of user experience, ensuring that my websites are both functional and intuitive. Dedicated to continuous learning, I stay updated with industry trends and best practices, always striving to enhance my skills and deliver top-quality projects.</p> 
   </section>
   <section id="projects">
-    <h2><span >let us connect</span><h2>
+    <h2><span >let us connect</span>
    <div class="gallery"> 
-     
-     <a href="https://compamosko.github.io/Ronnie-coleman-tribute/ronnie.html" target="_self"> 
+
+    <a  href="https://compamosko.github.io/Ronnie-coleman-tribute/ronnie.html" target="_self"> 
      <img src="images\ron.png" alt="Ronnie coleman tribute" class="project-tile"  class="preview">
-     <p>Tribute</p></a>
+     <p>Tribute</p></a> 
      <a href="https://compamosko.github.io/rocky-documentation/rockydoc.html" target="_self">
 <img src="images\rocky.png" >
     <p>Documentation</p></a>
     <a href="https://compamosko.github.io/roman-numeral-calc/index.html" target="_self"> <img src="images\calc.png" >
-      <p>Roman-numeral calc</p></a>
+      <p>4-IV calculator</p></a>
      <a href="https://compamosko.github.io/product-page/landingpage.html" target="_self"> 
      <img src="images\pg.png" alt="samsung a15" >
     <p>product page</p></a>
+    
    </div> 
-
   </section>
   <section id="contacts">
     <div class="welcome">
@@ -61,8 +61,11 @@
         <div id="flex-item">
           <h2 id="color">Subscribe to my Newsletter</h2>
           <p>Subscribe to my newsletter for insightful updates, latest tech trends, events, and news delivered to your inbox.</p>
-          <input type="text" placeholder="Enter email"></input>
-          <button>sign up</button>
+          <form id="emailForm">
+            
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <button id="submitButton">Sign up</button>
+          <p id="result"></p></form>
         </div>
         
       </div>
@@ -81,6 +84,7 @@
           </div>
   </section>
   <footer class="footer">&copy; moskopower</footer>
+  <script src="script.js"></script>
 </body>
 </html>
 
