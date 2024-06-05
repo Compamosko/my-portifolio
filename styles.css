@@ -5,19 +5,13 @@
     gap: 2em;
     position: fixed;
     top: 0;
-    width: 70%;
-    background-color: white;
+    width: 100%;
+    background-color: rgb(9, 34, 142);
     padding: 10px;
     
 }
 #nav-link{
     color: #ab3636;
-}
-a{
-    text-decoration: none;
-    color:black;
-    
-
 }
 a:hover {
     text-decoration: none; /* Remove underline on hover */
@@ -34,10 +28,7 @@ body {
 font-family: 'Poppins', sans-serif;
 font-size: 1rem;
 line-height: 1.4;
-background-color: white;
-width: 70%;
-margin: auto;
-
+background-color:#212529;
 }
 #quote{
     display: block;
@@ -48,6 +39,16 @@ margin: auto;
     border-radius: 100px;
     text-align: center;
 }
+.name{
+    color: purple;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: 900;
+}
+.description{
+    color: darksalmon;
+    font-style: oblique;
+}
 h2 {
 display: block;
 text-align: center;
@@ -57,8 +58,7 @@ text-align: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: left;
-   justify-content: left;
+    justify-content: center;
     gap: 30px;
     max-width: 100%;
     margin: auto;
@@ -92,27 +92,20 @@ text-align: center;
     
 }
 
-}
 .bottom{
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1em;
     /*background-image: url(https://img.freepik.com/premium-photo/web-development-coding-programming-site-application-laptop_272306-16.jpg?w=1060);*/
-    border-radius: 5%;
-    max-width: auto;
-    background-size: cover;
     justify-content: center;
-    margin: auto;
     flex-wrap: wrap;
-    
+  
 }
 
 #flex-item {
-    flex: 1 0 300px; /* Fixed width of 200px for each flex item */
-    padding: 10px;
-    
-    text-align: left; /* Center text within each item */
-    
+    width: 100%;
+    max-width: 300px;
+    color: azure;
 }
 #color{
     color:#ab3636;
@@ -123,4 +116,21 @@ text-align: center;
     font-size: 1.2em;
     text-align: center;
     justify-content: center;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+}
+#item{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+  
+}
+.container img{
+
+   border-radius: 100%;
 }
