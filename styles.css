@@ -7,7 +7,6 @@
     top: 0;
     width: 100%;
     background-color: rgb(9, 34, 142);
-    padding: 10px;
     
 }
 #nav-link{
@@ -29,6 +28,8 @@ font-family: 'Poppins', sans-serif;
 font-size: 1rem;
 line-height: 1.4;
 background-color:#212529;
+color:azure;
+
 }
 #quote{
     display: block;
@@ -59,15 +60,13 @@ text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 30px;
-    max-width: 100%;
-    margin: auto;
+    gap: 1em;
+    
 
   }
   .gallery img {
     width: 100%;
-    height: 20vh;
-    object-fit: cover;
+    max-width: 300px;
     border: 5px solid #ab3636 ;
      
   }
@@ -105,7 +104,6 @@ text-align: center;
 #flex-item {
     width: 100%;
     max-width: 300px;
-    color: azure;
 }
 #color{
     color:#ab3636;
@@ -118,6 +116,7 @@ text-align: center;
     justify-content: center;
 }
 .container{
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -127,10 +126,8 @@ text-align: center;
 #item{
     width: 100%;
     max-width: 300px;
-    height: 300px;
-  
+   
 }
 .container img{
-
-   border-radius: 100%;
+   border-radius: 50%;
 }
